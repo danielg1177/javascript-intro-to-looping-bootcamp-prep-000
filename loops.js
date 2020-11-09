@@ -15,10 +15,9 @@ function whileLoop(num) {
   }
   return 'done'
 }
+let i = -1
 
-let i = 0
-
-function incrementVariable() {
+function incrementVariable(i) {
   i = i + 1;
   return i;
 }
